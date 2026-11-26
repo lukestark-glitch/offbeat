@@ -73,4 +73,17 @@ Eine Zeile pro Branch (fertig / offen). Die Commits beginnen mit `[skip ci]`; es
 
 | Repo | Branch | Stand |
 |---|---|---|
-| – | – | noch keiner |
+| offbeat-engine | `phase-a` | **fertig** (8e373e1): Modus Kick+Bass, Dichte, Kick Attack Standard 0, Presets „Kick – Bounce 160“ und „Kick+Bass – Bounce 160“ mit Abnahme, Vorschau mit Ebenen je Modus und Vorhören, Standalone-App, Versionsnummer, `UNIVERSAL=false`, `tools/update-all.sh`, CI-Regeln. `make check` 14× BESTANDEN |
+| offbeat-topline | `phase-a` | **fertig** (5548905): Vorschau Ton/Phrase und Vorhören, Standalone-App, Versionsnummer, `UNIVERSAL=false`, CI-Regeln. `make check` BESTANDEN |
+| offbeat-turbo | `phase-a` | **fertig** (b695408): Vorschau mit Demo-Loop (Engine-DSP) vorher/nachher und Vorhören, `--lmms-values` für LADSPA, Versionsnummer, `UNIVERSAL=false`, CI-Regeln. `make check` BESTANDEN |
+| offbeat-hydraulics | `phase-a` | **fertig** (dd56b48): Vorschau mit Demo-Pad ohne/mit Pumpen und Pump-Kurve, Vorhören, `--lmms-values` für LADSPA, Versionsnummer, `UNIVERSAL=false`, CI-Regeln. `make check` BESTANDEN |
+| offbeat | `phase-a` | diese Datei |
+
+Hinweise für Phase B:
+
+- Vorhören in allen vier: Play im Host beendet es, und solange der Host spielt, startet keins (Rückmeldung des Nutzers aus Carla). Host-Noten bzw. Host-Audio am Eingang beenden es ebenfalls.
+- Die versteckten Vorhör-Parameter erscheinen in der LADSPA-Version (LMMS) als Regler ohne Wirkung; LADSPA hat keine Vorschau. Das kommt in die README.
+- macOS-CI läuft auch auf Tags (für das Release-ZIP); das ist Absicht und kommt in die Doku.
+- Turbo bekommt jetzt Zeitinfo vom Host (nur für den Play-Stopp beim Vorhören).
+- Offen: Topline ist neben Engine leiser (Demo-Projekt gleicht es über die Lautstärke aus).
+- FL Studio: die MIDI-CC-Parameter der VST3-Version bleiben, wie sie sind (siehe oben).
