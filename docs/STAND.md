@@ -77,6 +77,7 @@ Eine Zeile pro Branch (fertig / offen). Die Commits beginnen mit `[skip ci]`; es
 | offbeat-topline | `phase-a` | **fertig** (5548905): Vorschau Ton/Phrase und Vorhören, Standalone-App, Versionsnummer, `UNIVERSAL=false`, CI-Regeln. `make check` BESTANDEN |
 | offbeat-turbo | `phase-a` | **fertig** (b695408): Vorschau mit Demo-Loop (Engine-DSP) vorher/nachher und Vorhören, `--lmms-values` für LADSPA, Versionsnummer, `UNIVERSAL=false`, CI-Regeln. `make check` BESTANDEN |
 | offbeat-hydraulics | `phase-a` | **fertig** (dd56b48): Vorschau mit Demo-Pad ohne/mit Pumpen und Pump-Kurve, Vorhören, `--lmms-values` für LADSPA, Versionsnummer, `UNIVERSAL=false`, CI-Regeln. `make check` BESTANDEN |
+| offbeat-gearbox | `phase-a` | **fertig** (9ccdb11): Sequencer 8 Spuren, Patterns A–H, Swing, Fill, Tie, Polymetrik, State als JSON, Oberfläche, iPad-Fernbedienung (Server + Seite), `make check` (Sequencer + curl) BESTANDEN, AU (aumi) validiert. Neues Repo, `main` nur mit Lizenz |
 | offbeat | `phase-a` | diese Datei |
 
 Hinweise für Phase B:
@@ -86,6 +87,7 @@ Hinweise für Phase B:
 - macOS-CI läuft auch auf Tags (für das Release-ZIP); das ist Absicht und kommt in die Doku.
 - Turbo bekommt jetzt Zeitinfo vom Host (nur für den Play-Stopp beim Vorhören).
 - Offen: Topline ist neben Engine leiser (Demo-Projekt gleicht es über die Lautstärke aus).
+- Gearbox: Ersteinrichtung in Carla (Patchbay mit MIDI Split) und am iPad steht aus; `make check` braucht curl und freie Ports ab 18080 (Windows-CI prüfen). Tie bindet gleiche Noten (Spur hat eine Note); Glide braucht Tonhöhen je Schritt, die es noch nicht gibt. Beim Entladen kann DPF kein MIDI mehr senden; Panic kommt bei Stop und nach activate().
 - FL Studio: die MIDI-CC-Parameter der VST3-Version bleiben, wie sie sind (siehe oben).
 
 ## Offbeat Gearbox (GEARBOX_AUFTRAG.md) – Bestandsaufnahme 2026-11-26
