@@ -87,3 +87,19 @@ Hinweise für Phase B:
 - Turbo bekommt jetzt Zeitinfo vom Host (nur für den Play-Stopp beim Vorhören).
 - Offen: Topline ist neben Engine leiser (Demo-Projekt gleicht es über die Lautstärke aus).
 - FL Studio: die MIDI-CC-Parameter der VST3-Version bleiben, wie sie sind (siehe oben).
+
+## Offbeat Gearbox (GEARBOX_AUFTRAG.md) – Bestandsaufnahme 2026-11-26
+
+| Punkt | Stand |
+|---|---|
+| Repo `offbeat-gearbox` (öffentlich, ISC) | **fehlt** – wird in Phase A angelegt, alle Commits `[skip ci]` |
+| Bild `assets/gearbox.png` | **erledigt** – liegt in `~/Developer/plugins-logos/gearbox.png` |
+| Baukasten (OffbeatKit, ParamInfo, ParamText, JSON, Render) | **erledigt** in offbeat-engine, wird kopiert |
+| MIDI-Erzeuger, Formate VST3/VST2/AU/CLAP/LV2, kein LADSPA | **fehlt** (AU: als MIDI-Prozessor; Risiko, ob Carla/Hosts den AU-MIDI-Ausgang nutzen) |
+| Sequencer (8 Spuren, Schritte 1–64, Patterns A–H, Swing, Fill, State als JSON) | **fehlt** |
+| GUI mit Raster, Remote-Bereich | **fehlt** |
+| Mini-Server HTTP/1.1 + SSE + POST, PIN, nur private Netze | **fehlt** (Windows braucht Winsock, `ws2_32`) |
+| Tests `gearbox-render` + curl-Skript | **fehlt** |
+| Übersicht `offbeat` (Tabelle, Submodul, Setup) | Phase B |
+| LMMS: MIDI aus Carla Rack nicht weiterleitbar → Patchbay | Doku in Phase B |
+| Widersprüche zum Bestand | keine |
