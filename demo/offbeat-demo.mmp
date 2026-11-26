@@ -1,0 +1,3644 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" type="song" creator="LMMS" version="1.0">
+  <head bpm="160" mastervol="100" masterpitch="0" timesig_denominator="4" timesig_numerator="4"/>
+  <song>
+    <trackcontainer visible="1" minimized="0" width="1191" maximized="0" height="472" type="song" y="117" x="102">
+      <track name="Kick (Engine)" solo="0" tab="0" visible="1" minimized="0" width="262" muted="0" maximized="0" height="464" type="0" y="0" x="1555">
+        <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" vol="100" fxch="1" pan="0" pitchrange="1">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.5">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/Library/Audio/Plug-Ins/LADSPA:/Users/lukestark/Library/Audio/Plug-Ins/LADSPA</LADSPA_PATH>
+                  <DSSI_PATH>/Library/Audio/Plug-Ins/DSSI:/Users/lukestark/Library/Audio/Plug-Ins/DSSI</DSSI_PATH>
+                  <LV2_PATH>/Library/Audio/Plug-Ins/LV2:/Users/lukestark/Library/Audio/Plug-Ins/LV2</LV2_PATH>
+                  <VST2_PATH>/Library/Audio/Plug-Ins/VST:/Users/lukestark/Library/Audio/Plug-Ins/VST</VST2_PATH>
+                  <VST3_PATH>/Library/Audio/Plug-Ins/VST3:/Users/lukestark/Library/Audio/Plug-Ins/VST3</VST3_PATH>
+                  <SF2_PATH/>
+                  <SFZ_PATH/>
+                  <JSFX_PATH>/Users/lukestark/Library/Application Support/REAPER/Effects</JSFX_PATH>
+                </EngineSettings>
+                <!-- Offbeat Engine -->
+                <Plugin>
+                  <Info>
+                    <Type>LV2</Type>
+                    <Name>Offbeat Engine</Name>
+                    <URI>https://github.com/lukestark-glitch/offbeat-synth</URI>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f0</Options>
+                    <Parameter>
+                      <Index>0</Index>
+                      <Name>Mode</Name>
+                      <Symbol>mode</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>1</Index>
+                      <Name>Volume</Name>
+                      <Symbol>volume</Symbol>
+                      <Value>-3</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>2</Index>
+                      <Name>Drive</Name>
+                      <Symbol>drive</Symbol>
+                      <Value>0.364580571651459</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>3</Index>
+                      <Name>Tone</Name>
+                      <Symbol>tone</Symbol>
+                      <Value>4233.74462890625</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>4</Index>
+                      <Name>Width</Name>
+                      <Symbol>width</Symbol>
+                      <Value>0.46571072936058</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>5</Index>
+                      <Name>Kick Start Pitch</Name>
+                      <Symbol>kick_start</Symbol>
+                      <Value>280</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>6</Index>
+                      <Name>Kick Tune to Note</Name>
+                      <Symbol>kick_tune</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>7</Index>
+                      <Name>Kick End Pitch</Name>
+                      <Symbol>kick_end</Symbol>
+                      <Value>43.6500015258789</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>8</Index>
+                      <Name>Kick Punch Time</Name>
+                      <Symbol>kick_punch</Symbol>
+                      <Value>11.9773941040039</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>9</Index>
+                      <Name>Kick Body Time</Name>
+                      <Symbol>kick_body</Symbol>
+                      <Value>39.1421127319336</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>10</Index>
+                      <Name>Kick Length</Name>
+                      <Symbol>kick_length</Symbol>
+                      <Value>187.468597412109</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>11</Index>
+                      <Name>Kick Cut</Name>
+                      <Symbol>kick_cut</Symbol>
+                      <Value>30</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>12</Index>
+                      <Name>Kick Click</Name>
+                      <Symbol>kick_click</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>13</Index>
+                      <Name>Kick Drive</Name>
+                      <Symbol>kick_drive</Symbol>
+                      <Value>0.476133197546005</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>14</Index>
+                      <Name>Kick Bounce Sync</Name>
+                      <Symbol>kick_sync</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>15</Index>
+                      <Name>Bass Wave</Name>
+                      <Symbol>bass_wave</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>16</Index>
+                      <Name>Bass Sub</Name>
+                      <Symbol>bass_sub</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>17</Index>
+                      <Name>Bass Detune</Name>
+                      <Symbol>bass_detune</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>18</Index>
+                      <Name>Bass Cutoff</Name>
+                      <Symbol>bass_cutoff</Symbol>
+                      <Value>500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>19</Index>
+                      <Name>Bass Resonance</Name>
+                      <Symbol>bass_reso</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>20</Index>
+                      <Name>Bass 24 dB</Name>
+                      <Symbol>bass_slope</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>21</Index>
+                      <Name>Bass Filter Env</Name>
+                      <Symbol>bass_envamt</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>22</Index>
+                      <Name>Bass Filter Decay</Name>
+                      <Symbol>bass_fdecay</Symbol>
+                      <Value>90</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>23</Index>
+                      <Name>Bass Amp Decay</Name>
+                      <Symbol>bass_adecay</Symbol>
+                      <Value>170</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>24</Index>
+                      <Name>Bass Bounce Pitch</Name>
+                      <Symbol>bass_bounce</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>25</Index>
+                      <Name>Bass Bounce Time</Name>
+                      <Symbol>bass_btime</Symbol>
+                      <Value>20</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>26</Index>
+                      <Name>Bass Glide</Name>
+                      <Symbol>bass_glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>27</Index>
+                      <Name>Bass Roll</Name>
+                      <Symbol>bass_roll</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>28</Index>
+                      <Name>Hat Metal/Noise</Name>
+                      <Symbol>hat_mix</Symbol>
+                      <Value>0.449999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>29</Index>
+                      <Name>Hat Pitch</Name>
+                      <Symbol>hat_pitch</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>30</Index>
+                      <Name>Hat High-Pass</Name>
+                      <Symbol>hat_hp</Symbol>
+                      <Value>6000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>31</Index>
+                      <Name>Hat Low-Pass</Name>
+                      <Symbol>hat_lp</Symbol>
+                      <Value>7500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>32</Index>
+                      <Name>Hat Decay Closed</Name>
+                      <Symbol>hat_closed</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>33</Index>
+                      <Name>Hat Decay Open</Name>
+                      <Symbol>hat_open</Symbol>
+                      <Value>70</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>34</Index>
+                      <Name>Stab Voices</Name>
+                      <Symbol>stab_voices</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>35</Index>
+                      <Name>Stab Detune</Name>
+                      <Symbol>stab_detune</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>36</Index>
+                      <Name>Stab Mix</Name>
+                      <Symbol>stab_mix</Symbol>
+                      <Value>0.699999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>37</Index>
+                      <Name>Stab Cutoff</Name>
+                      <Symbol>stab_cutoff</Symbol>
+                      <Value>3000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>38</Index>
+                      <Name>Stab Resonance</Name>
+                      <Symbol>stab_reso</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>39</Index>
+                      <Name>Stab Filter Env</Name>
+                      <Symbol>stab_envamt</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>40</Index>
+                      <Name>Stab Filter Decay</Name>
+                      <Symbol>stab_fdecay</Symbol>
+                      <Value>200</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>41</Index>
+                      <Name>Stab Attack</Name>
+                      <Symbol>stab_attack</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>42</Index>
+                      <Name>Stab Decay</Name>
+                      <Symbol>stab_decay</Symbol>
+                      <Value>250</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>43</Index>
+                      <Name>Stab Sustain</Name>
+                      <Symbol>stab_sustain</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>44</Index>
+                      <Name>Stab Release</Name>
+                      <Symbol>stab_release</Symbol>
+                      <Value>120</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>45</Index>
+                      <Name>Stab Hoover Drop</Name>
+                      <Symbol>stab_hoover</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>46</Index>
+                      <Name>Stab Chord</Name>
+                      <Symbol>stab_chord</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>47</Index>
+                      <Name>Stab Glide</Name>
+                      <Symbol>stab_glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>48</Index>
+                      <Name>Pad Detune</Name>
+                      <Symbol>pad_detune</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>49</Index>
+                      <Name>Pad Triangle +12</Name>
+                      <Symbol>pad_tri</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>50</Index>
+                      <Name>Pad Cutoff</Name>
+                      <Symbol>pad_cutoff</Symbol>
+                      <Value>1800</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>51</Index>
+                      <Name>Pad LFO Rate</Name>
+                      <Symbol>pad_lfo_rate</Symbol>
+                      <Value>3</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>52</Index>
+                      <Name>Pad LFO Depth</Name>
+                      <Symbol>pad_lfo_depth</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>53</Index>
+                      <Name>Pad Attack</Name>
+                      <Symbol>pad_attack</Symbol>
+                      <Value>600</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>54</Index>
+                      <Name>Pad Release</Name>
+                      <Symbol>pad_release</Symbol>
+                      <Value>2000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>55</Index>
+                      <Name>Pad Chorus</Name>
+                      <Symbol>pad_chorus</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>56</Index>
+                      <Name>Riser Bars</Name>
+                      <Symbol>riser_bars</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>57</Index>
+                      <Name>Riser Noise/Saw</Name>
+                      <Symbol>riser_mix</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>58</Index>
+                      <Name>Riser Cutoff Start</Name>
+                      <Symbol>riser_start</Symbol>
+                      <Value>300</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>59</Index>
+                      <Name>Riser Cutoff End</Name>
+                      <Symbol>riser_end</Symbol>
+                      <Value>12000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>60</Index>
+                      <Name>Riser Pitch Rise</Name>
+                      <Symbol>riser_pitch</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>61</Index>
+                      <Name>Riser Volume Rise</Name>
+                      <Symbol>riser_vol</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>62</Index>
+                      <Name>Riser Siren Depth</Name>
+                      <Symbol>riser_siren</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>63</Index>
+                      <Name>Riser Siren Rate</Name>
+                      <Symbol>riser_rate</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>64</Index>
+                      <Name>Kick Attack</Name>
+                      <Symbol>kick_attack</Symbol>
+                      <Value>3.94859266281128</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>65</Index>
+                      <Name>Octave</Name>
+                      <Symbol>octave</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>66</Index>
+                      <Name>Tempo from Host</Name>
+                      <Symbol>tempo_host</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>67</Index>
+                      <Name>Tempo BPM</Name>
+                      <Symbol>tempo_bpm</Symbol>
+                      <Value>160</Value>
+                    </Parameter>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elcut lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elres lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arprange="1" arpdir="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="200" arpcycle="0" arpskip="0" arpmiss="0" arp="0" arptime_syncmode="0" arpmode="0" arpgate="100"/>
+          <midiport readable="0" outputchannel="1" outputprogram="1" inputchannel="0" fixedoutputvelocity="-1" outputcontroller="0" fixedoutputnote="-1" fixedinputvelocity="-1" writable="0" basevelocity="63" inputcontroller="0"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern name="Kick (Engine)" pos="0" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="192" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="384" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="576" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="768" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="960" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="1152" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="1344" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="1536" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="1728" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="1920" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="2112" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="2304" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="2496" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="2688" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="2880" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="3072" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="3264" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="3456" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="3648" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="3840" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="4032" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="4224" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="4416" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="4608" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="4800" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="4992" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="5184" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="5376" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="5568" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="5760" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+        <pattern name="Kick (Engine)" pos="5952" muted="0" type="1" steps="16">
+          <note pos="0" len="12" vol="100" pan="0" key="29"/>
+          <note pos="48" len="12" vol="100" pan="0" key="29"/>
+          <note pos="96" len="12" vol="100" pan="0" key="29"/>
+          <note pos="144" len="12" vol="100" pan="0" key="29"/>
+        </pattern>
+      </track>
+      <track name="Bass (Engine)" solo="0" muted="0" type="0">
+        <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" vol="100" fxch="3" pan="0" pitchrange="1">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.5">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/Library/Audio/Plug-Ins/LADSPA:/Users/lukestark/Library/Audio/Plug-Ins/LADSPA</LADSPA_PATH>
+                  <DSSI_PATH>/Library/Audio/Plug-Ins/DSSI:/Users/lukestark/Library/Audio/Plug-Ins/DSSI</DSSI_PATH>
+                  <LV2_PATH>/Library/Audio/Plug-Ins/LV2:/Users/lukestark/Library/Audio/Plug-Ins/LV2</LV2_PATH>
+                  <VST2_PATH>/Library/Audio/Plug-Ins/VST:/Users/lukestark/Library/Audio/Plug-Ins/VST</VST2_PATH>
+                  <VST3_PATH>/Library/Audio/Plug-Ins/VST3:/Users/lukestark/Library/Audio/Plug-Ins/VST3</VST3_PATH>
+                  <SF2_PATH/>
+                  <SFZ_PATH/>
+                  <JSFX_PATH/>
+                </EngineSettings>
+                <!-- Offbeat Engine -->
+                <Plugin>
+                  <Info>
+                    <Type>LV2</Type>
+                    <Name>Offbeat Engine</Name>
+                    <URI>https://github.com/lukestark-glitch/offbeat-synth</URI>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f0</Options>
+                    <Parameter>
+                      <Index>0</Index>
+                      <Name>Mode</Name>
+                      <Symbol>mode</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>1</Index>
+                      <Name>Volume</Name>
+                      <Symbol>volume</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>2</Index>
+                      <Name>Drive</Name>
+                      <Symbol>drive</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>3</Index>
+                      <Name>Tone</Name>
+                      <Symbol>tone</Symbol>
+                      <Value>20000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>4</Index>
+                      <Name>Width</Name>
+                      <Symbol>width</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>5</Index>
+                      <Name>Kick Start Pitch</Name>
+                      <Symbol>kick_start</Symbol>
+                      <Value>280</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>6</Index>
+                      <Name>Kick Tune to Note</Name>
+                      <Symbol>kick_tune</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>7</Index>
+                      <Name>Kick End Pitch</Name>
+                      <Symbol>kick_end</Symbol>
+                      <Value>43.6500015258789</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>8</Index>
+                      <Name>Kick Punch Time</Name>
+                      <Symbol>kick_punch</Symbol>
+                      <Value>18</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>9</Index>
+                      <Name>Kick Body Time</Name>
+                      <Symbol>kick_body</Symbol>
+                      <Value>75</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>10</Index>
+                      <Name>Kick Length</Name>
+                      <Symbol>kick_length</Symbol>
+                      <Value>185</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>11</Index>
+                      <Name>Kick Cut</Name>
+                      <Symbol>kick_cut</Symbol>
+                      <Value>30</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>12</Index>
+                      <Name>Kick Click</Name>
+                      <Symbol>kick_click</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>13</Index>
+                      <Name>Kick Drive</Name>
+                      <Symbol>kick_drive</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>14</Index>
+                      <Name>Kick Bounce Sync</Name>
+                      <Symbol>kick_sync</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>15</Index>
+                      <Name>Bass Wave</Name>
+                      <Symbol>bass_wave</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>16</Index>
+                      <Name>Bass Sub</Name>
+                      <Symbol>bass_sub</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>17</Index>
+                      <Name>Bass Detune</Name>
+                      <Symbol>bass_detune</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>18</Index>
+                      <Name>Bass Cutoff</Name>
+                      <Symbol>bass_cutoff</Symbol>
+                      <Value>500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>19</Index>
+                      <Name>Bass Resonance</Name>
+                      <Symbol>bass_reso</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>20</Index>
+                      <Name>Bass 24 dB</Name>
+                      <Symbol>bass_slope</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>21</Index>
+                      <Name>Bass Filter Env</Name>
+                      <Symbol>bass_envamt</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>22</Index>
+                      <Name>Bass Filter Decay</Name>
+                      <Symbol>bass_fdecay</Symbol>
+                      <Value>90</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>23</Index>
+                      <Name>Bass Amp Decay</Name>
+                      <Symbol>bass_adecay</Symbol>
+                      <Value>170</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>24</Index>
+                      <Name>Bass Bounce Pitch</Name>
+                      <Symbol>bass_bounce</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>25</Index>
+                      <Name>Bass Bounce Time</Name>
+                      <Symbol>bass_btime</Symbol>
+                      <Value>20</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>26</Index>
+                      <Name>Bass Glide</Name>
+                      <Symbol>bass_glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>27</Index>
+                      <Name>Bass Roll</Name>
+                      <Symbol>bass_roll</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>28</Index>
+                      <Name>Hat Metal/Noise</Name>
+                      <Symbol>hat_mix</Symbol>
+                      <Value>0.449999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>29</Index>
+                      <Name>Hat Pitch</Name>
+                      <Symbol>hat_pitch</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>30</Index>
+                      <Name>Hat High-Pass</Name>
+                      <Symbol>hat_hp</Symbol>
+                      <Value>6000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>31</Index>
+                      <Name>Hat Low-Pass</Name>
+                      <Symbol>hat_lp</Symbol>
+                      <Value>7500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>32</Index>
+                      <Name>Hat Decay Closed</Name>
+                      <Symbol>hat_closed</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>33</Index>
+                      <Name>Hat Decay Open</Name>
+                      <Symbol>hat_open</Symbol>
+                      <Value>70</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>34</Index>
+                      <Name>Stab Voices</Name>
+                      <Symbol>stab_voices</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>35</Index>
+                      <Name>Stab Detune</Name>
+                      <Symbol>stab_detune</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>36</Index>
+                      <Name>Stab Mix</Name>
+                      <Symbol>stab_mix</Symbol>
+                      <Value>0.699999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>37</Index>
+                      <Name>Stab Cutoff</Name>
+                      <Symbol>stab_cutoff</Symbol>
+                      <Value>3000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>38</Index>
+                      <Name>Stab Resonance</Name>
+                      <Symbol>stab_reso</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>39</Index>
+                      <Name>Stab Filter Env</Name>
+                      <Symbol>stab_envamt</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>40</Index>
+                      <Name>Stab Filter Decay</Name>
+                      <Symbol>stab_fdecay</Symbol>
+                      <Value>200</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>41</Index>
+                      <Name>Stab Attack</Name>
+                      <Symbol>stab_attack</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>42</Index>
+                      <Name>Stab Decay</Name>
+                      <Symbol>stab_decay</Symbol>
+                      <Value>250</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>43</Index>
+                      <Name>Stab Sustain</Name>
+                      <Symbol>stab_sustain</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>44</Index>
+                      <Name>Stab Release</Name>
+                      <Symbol>stab_release</Symbol>
+                      <Value>120</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>45</Index>
+                      <Name>Stab Hoover Drop</Name>
+                      <Symbol>stab_hoover</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>46</Index>
+                      <Name>Stab Chord</Name>
+                      <Symbol>stab_chord</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>47</Index>
+                      <Name>Stab Glide</Name>
+                      <Symbol>stab_glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>48</Index>
+                      <Name>Pad Detune</Name>
+                      <Symbol>pad_detune</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>49</Index>
+                      <Name>Pad Triangle +12</Name>
+                      <Symbol>pad_tri</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>50</Index>
+                      <Name>Pad Cutoff</Name>
+                      <Symbol>pad_cutoff</Symbol>
+                      <Value>1800</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>51</Index>
+                      <Name>Pad LFO Rate</Name>
+                      <Symbol>pad_lfo_rate</Symbol>
+                      <Value>3</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>52</Index>
+                      <Name>Pad LFO Depth</Name>
+                      <Symbol>pad_lfo_depth</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>53</Index>
+                      <Name>Pad Attack</Name>
+                      <Symbol>pad_attack</Symbol>
+                      <Value>600</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>54</Index>
+                      <Name>Pad Release</Name>
+                      <Symbol>pad_release</Symbol>
+                      <Value>2000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>55</Index>
+                      <Name>Pad Chorus</Name>
+                      <Symbol>pad_chorus</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>56</Index>
+                      <Name>Riser Bars</Name>
+                      <Symbol>riser_bars</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>57</Index>
+                      <Name>Riser Noise/Saw</Name>
+                      <Symbol>riser_mix</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>58</Index>
+                      <Name>Riser Cutoff Start</Name>
+                      <Symbol>riser_start</Symbol>
+                      <Value>300</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>59</Index>
+                      <Name>Riser Cutoff End</Name>
+                      <Symbol>riser_end</Symbol>
+                      <Value>12000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>60</Index>
+                      <Name>Riser Pitch Rise</Name>
+                      <Symbol>riser_pitch</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>61</Index>
+                      <Name>Riser Volume Rise</Name>
+                      <Symbol>riser_vol</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>62</Index>
+                      <Name>Riser Siren Depth</Name>
+                      <Symbol>riser_siren</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>63</Index>
+                      <Name>Riser Siren Rate</Name>
+                      <Symbol>riser_rate</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>64</Index>
+                      <Name>Kick Attack</Name>
+                      <Symbol>kick_attack</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>65</Index>
+                      <Name>Octave</Name>
+                      <Symbol>octave</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>66</Index>
+                      <Name>Tempo from Host</Name>
+                      <Symbol>tempo_host</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>67</Index>
+                      <Name>Tempo BPM</Name>
+                      <Symbol>tempo_bpm</Symbol>
+                      <Value>160</Value>
+                    </Parameter>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elcut lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elres lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arprange="1" arpdir="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="200" arpcycle="0" arpskip="0" arpmiss="0" arp="0" arptime_syncmode="0" arpmode="0" arpgate="100"/>
+          <midiport readable="0" outputchannel="1" outputprogram="1" inputchannel="0" fixedoutputvelocity="-1" outputcontroller="0" fixedoutputnote="-1" fixedinputvelocity="-1" writable="0" basevelocity="63" inputcontroller="0"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern name="Bass (Engine)" pos="768" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="960" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="1152" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="1344" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="1536" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="1728" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="1920" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="2112" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="2304" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="2496" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="2688" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="2880" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="3072" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="3264" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="3456" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="3648" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="3840" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="4032" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="4224" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="4416" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="4608" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="4800" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="4992" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="5184" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="5376" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="41"/>
+          <note pos="72" len="10" vol="100" pan="0" key="41"/>
+          <note pos="120" len="10" vol="100" pan="0" key="41"/>
+          <note pos="168" len="10" vol="100" pan="0" key="41"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="5568" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="37"/>
+          <note pos="72" len="10" vol="100" pan="0" key="37"/>
+          <note pos="120" len="10" vol="100" pan="0" key="37"/>
+          <note pos="168" len="10" vol="100" pan="0" key="37"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="5760" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="39"/>
+          <note pos="72" len="10" vol="100" pan="0" key="39"/>
+          <note pos="120" len="10" vol="100" pan="0" key="39"/>
+          <note pos="168" len="10" vol="100" pan="0" key="39"/>
+        </pattern>
+        <pattern name="Bass (Engine)" pos="5952" muted="0" type="1" steps="16">
+          <note pos="24" len="10" vol="100" pan="0" key="36"/>
+          <note pos="72" len="10" vol="100" pan="0" key="36"/>
+          <note pos="120" len="10" vol="100" pan="0" key="36"/>
+          <note pos="168" len="10" vol="100" pan="0" key="36"/>
+        </pattern>
+      </track>
+      <track name="Hats (Engine)" solo="0" muted="0" type="0">
+        <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" vol="60" fxch="4" pan="0" pitchrange="1">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.5">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/Library/Audio/Plug-Ins/LADSPA:/Users/lukestark/Library/Audio/Plug-Ins/LADSPA</LADSPA_PATH>
+                  <DSSI_PATH>/Library/Audio/Plug-Ins/DSSI:/Users/lukestark/Library/Audio/Plug-Ins/DSSI</DSSI_PATH>
+                  <LV2_PATH>/Library/Audio/Plug-Ins/LV2:/Users/lukestark/Library/Audio/Plug-Ins/LV2</LV2_PATH>
+                  <VST2_PATH>/Library/Audio/Plug-Ins/VST:/Users/lukestark/Library/Audio/Plug-Ins/VST</VST2_PATH>
+                  <VST3_PATH>/Library/Audio/Plug-Ins/VST3:/Users/lukestark/Library/Audio/Plug-Ins/VST3</VST3_PATH>
+                  <SF2_PATH/>
+                  <SFZ_PATH/>
+                  <JSFX_PATH/>
+                </EngineSettings>
+                <!-- Offbeat Engine -->
+                <Plugin>
+                  <Info>
+                    <Type>LV2</Type>
+                    <Name>Offbeat Engine</Name>
+                    <URI>https://github.com/lukestark-glitch/offbeat-synth</URI>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f0</Options>
+                    <Parameter>
+                      <Index>0</Index>
+                      <Name>Mode</Name>
+                      <Symbol>mode</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>1</Index>
+                      <Name>Volume</Name>
+                      <Symbol>volume</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>2</Index>
+                      <Name>Drive</Name>
+                      <Symbol>drive</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>3</Index>
+                      <Name>Tone</Name>
+                      <Symbol>tone</Symbol>
+                      <Value>20000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>4</Index>
+                      <Name>Width</Name>
+                      <Symbol>width</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>5</Index>
+                      <Name>Kick Start Pitch</Name>
+                      <Symbol>kick_start</Symbol>
+                      <Value>280</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>6</Index>
+                      <Name>Kick Tune to Note</Name>
+                      <Symbol>kick_tune</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>7</Index>
+                      <Name>Kick End Pitch</Name>
+                      <Symbol>kick_end</Symbol>
+                      <Value>43.6500015258789</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>8</Index>
+                      <Name>Kick Punch Time</Name>
+                      <Symbol>kick_punch</Symbol>
+                      <Value>18</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>9</Index>
+                      <Name>Kick Body Time</Name>
+                      <Symbol>kick_body</Symbol>
+                      <Value>75</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>10</Index>
+                      <Name>Kick Length</Name>
+                      <Symbol>kick_length</Symbol>
+                      <Value>185</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>11</Index>
+                      <Name>Kick Cut</Name>
+                      <Symbol>kick_cut</Symbol>
+                      <Value>30</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>12</Index>
+                      <Name>Kick Click</Name>
+                      <Symbol>kick_click</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>13</Index>
+                      <Name>Kick Drive</Name>
+                      <Symbol>kick_drive</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>14</Index>
+                      <Name>Kick Bounce Sync</Name>
+                      <Symbol>kick_sync</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>15</Index>
+                      <Name>Bass Wave</Name>
+                      <Symbol>bass_wave</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>16</Index>
+                      <Name>Bass Sub</Name>
+                      <Symbol>bass_sub</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>17</Index>
+                      <Name>Bass Detune</Name>
+                      <Symbol>bass_detune</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>18</Index>
+                      <Name>Bass Cutoff</Name>
+                      <Symbol>bass_cutoff</Symbol>
+                      <Value>500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>19</Index>
+                      <Name>Bass Resonance</Name>
+                      <Symbol>bass_reso</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>20</Index>
+                      <Name>Bass 24 dB</Name>
+                      <Symbol>bass_slope</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>21</Index>
+                      <Name>Bass Filter Env</Name>
+                      <Symbol>bass_envamt</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>22</Index>
+                      <Name>Bass Filter Decay</Name>
+                      <Symbol>bass_fdecay</Symbol>
+                      <Value>90</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>23</Index>
+                      <Name>Bass Amp Decay</Name>
+                      <Symbol>bass_adecay</Symbol>
+                      <Value>170</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>24</Index>
+                      <Name>Bass Bounce Pitch</Name>
+                      <Symbol>bass_bounce</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>25</Index>
+                      <Name>Bass Bounce Time</Name>
+                      <Symbol>bass_btime</Symbol>
+                      <Value>20</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>26</Index>
+                      <Name>Bass Glide</Name>
+                      <Symbol>bass_glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>27</Index>
+                      <Name>Bass Roll</Name>
+                      <Symbol>bass_roll</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>28</Index>
+                      <Name>Hat Metal/Noise</Name>
+                      <Symbol>hat_mix</Symbol>
+                      <Value>0.449999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>29</Index>
+                      <Name>Hat Pitch</Name>
+                      <Symbol>hat_pitch</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>30</Index>
+                      <Name>Hat High-Pass</Name>
+                      <Symbol>hat_hp</Symbol>
+                      <Value>6000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>31</Index>
+                      <Name>Hat Low-Pass</Name>
+                      <Symbol>hat_lp</Symbol>
+                      <Value>7500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>32</Index>
+                      <Name>Hat Decay Closed</Name>
+                      <Symbol>hat_closed</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>33</Index>
+                      <Name>Hat Decay Open</Name>
+                      <Symbol>hat_open</Symbol>
+                      <Value>70</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>34</Index>
+                      <Name>Stab Voices</Name>
+                      <Symbol>stab_voices</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>35</Index>
+                      <Name>Stab Detune</Name>
+                      <Symbol>stab_detune</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>36</Index>
+                      <Name>Stab Mix</Name>
+                      <Symbol>stab_mix</Symbol>
+                      <Value>0.699999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>37</Index>
+                      <Name>Stab Cutoff</Name>
+                      <Symbol>stab_cutoff</Symbol>
+                      <Value>3000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>38</Index>
+                      <Name>Stab Resonance</Name>
+                      <Symbol>stab_reso</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>39</Index>
+                      <Name>Stab Filter Env</Name>
+                      <Symbol>stab_envamt</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>40</Index>
+                      <Name>Stab Filter Decay</Name>
+                      <Symbol>stab_fdecay</Symbol>
+                      <Value>200</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>41</Index>
+                      <Name>Stab Attack</Name>
+                      <Symbol>stab_attack</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>42</Index>
+                      <Name>Stab Decay</Name>
+                      <Symbol>stab_decay</Symbol>
+                      <Value>250</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>43</Index>
+                      <Name>Stab Sustain</Name>
+                      <Symbol>stab_sustain</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>44</Index>
+                      <Name>Stab Release</Name>
+                      <Symbol>stab_release</Symbol>
+                      <Value>120</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>45</Index>
+                      <Name>Stab Hoover Drop</Name>
+                      <Symbol>stab_hoover</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>46</Index>
+                      <Name>Stab Chord</Name>
+                      <Symbol>stab_chord</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>47</Index>
+                      <Name>Stab Glide</Name>
+                      <Symbol>stab_glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>48</Index>
+                      <Name>Pad Detune</Name>
+                      <Symbol>pad_detune</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>49</Index>
+                      <Name>Pad Triangle +12</Name>
+                      <Symbol>pad_tri</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>50</Index>
+                      <Name>Pad Cutoff</Name>
+                      <Symbol>pad_cutoff</Symbol>
+                      <Value>1800</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>51</Index>
+                      <Name>Pad LFO Rate</Name>
+                      <Symbol>pad_lfo_rate</Symbol>
+                      <Value>3</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>52</Index>
+                      <Name>Pad LFO Depth</Name>
+                      <Symbol>pad_lfo_depth</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>53</Index>
+                      <Name>Pad Attack</Name>
+                      <Symbol>pad_attack</Symbol>
+                      <Value>600</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>54</Index>
+                      <Name>Pad Release</Name>
+                      <Symbol>pad_release</Symbol>
+                      <Value>2000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>55</Index>
+                      <Name>Pad Chorus</Name>
+                      <Symbol>pad_chorus</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>56</Index>
+                      <Name>Riser Bars</Name>
+                      <Symbol>riser_bars</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>57</Index>
+                      <Name>Riser Noise/Saw</Name>
+                      <Symbol>riser_mix</Symbol>
+                      <Value>0.400000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>58</Index>
+                      <Name>Riser Cutoff Start</Name>
+                      <Symbol>riser_start</Symbol>
+                      <Value>300</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>59</Index>
+                      <Name>Riser Cutoff End</Name>
+                      <Symbol>riser_end</Symbol>
+                      <Value>12000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>60</Index>
+                      <Name>Riser Pitch Rise</Name>
+                      <Symbol>riser_pitch</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>61</Index>
+                      <Name>Riser Volume Rise</Name>
+                      <Symbol>riser_vol</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>62</Index>
+                      <Name>Riser Siren Depth</Name>
+                      <Symbol>riser_siren</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>63</Index>
+                      <Name>Riser Siren Rate</Name>
+                      <Symbol>riser_rate</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>64</Index>
+                      <Name>Kick Attack</Name>
+                      <Symbol>kick_attack</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>65</Index>
+                      <Name>Octave</Name>
+                      <Symbol>octave</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>66</Index>
+                      <Name>Tempo from Host</Name>
+                      <Symbol>tempo_host</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>67</Index>
+                      <Name>Tempo BPM</Name>
+                      <Symbol>tempo_bpm</Symbol>
+                      <Value>160</Value>
+                    </Parameter>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elcut lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elres lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arprange="1" arpdir="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="200" arpcycle="0" arpskip="0" arpmiss="0" arp="0" arptime_syncmode="0" arpmode="0" arpgate="100"/>
+          <midiport readable="0" outputchannel="1" outputprogram="1" inputchannel="0" fixedoutputvelocity="-1" outputcontroller="0" fixedoutputnote="-1" fixedinputvelocity="-1" writable="0" basevelocity="63" inputcontroller="0"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern name="Hats (Engine)" pos="0" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="192" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="384" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="576" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="768" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="960" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="1152" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="1344" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="1536" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="1728" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="1920" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="2112" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="2304" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="2496" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="2688" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="2880" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="3072" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="3264" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="3456" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="3648" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="3840" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="4032" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="4224" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="4416" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="4608" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="4800" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="4992" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="5184" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="5376" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="5568" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="5760" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+        <pattern name="Hats (Engine)" pos="5952" muted="0" type="1" steps="16">
+          <note pos="12" len="6" vol="70" pan="0" key="54"/>
+          <note pos="24" len="12" vol="80" pan="0" key="58"/>
+          <note pos="36" len="6" vol="70" pan="0" key="54"/>
+          <note pos="60" len="6" vol="70" pan="0" key="54"/>
+          <note pos="72" len="12" vol="80" pan="0" key="58"/>
+          <note pos="84" len="6" vol="70" pan="0" key="54"/>
+          <note pos="108" len="6" vol="70" pan="0" key="54"/>
+          <note pos="120" len="12" vol="80" pan="0" key="58"/>
+          <note pos="132" len="6" vol="70" pan="0" key="54"/>
+          <note pos="156" len="6" vol="70" pan="0" key="54"/>
+          <note pos="168" len="12" vol="80" pan="0" key="58"/>
+          <note pos="180" len="6" vol="70" pan="0" key="54"/>
+        </pattern>
+      </track>
+      <track name="Akkorde (Topline)" solo="0" muted="0" type="0">
+        <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" vol="90" fxch="2" pan="0" pitchrange="1">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.5">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/Library/Audio/Plug-Ins/LADSPA:/Users/lukestark/Library/Audio/Plug-Ins/LADSPA</LADSPA_PATH>
+                  <DSSI_PATH>/Library/Audio/Plug-Ins/DSSI:/Users/lukestark/Library/Audio/Plug-Ins/DSSI</DSSI_PATH>
+                  <LV2_PATH>/Library/Audio/Plug-Ins/LV2:/Users/lukestark/Library/Audio/Plug-Ins/LV2</LV2_PATH>
+                  <VST2_PATH>/Library/Audio/Plug-Ins/VST:/Users/lukestark/Library/Audio/Plug-Ins/VST</VST2_PATH>
+                  <VST3_PATH>/Library/Audio/Plug-Ins/VST3:/Users/lukestark/Library/Audio/Plug-Ins/VST3</VST3_PATH>
+                  <SF2_PATH/>
+                  <SFZ_PATH/>
+                  <JSFX_PATH/>
+                </EngineSettings>
+                <!-- Offbeat Topline -->
+                <Plugin>
+                  <Info>
+                    <Type>LV2</Type>
+                    <Name>Offbeat Topline</Name>
+                    <URI>https://github.com/lukestark-glitch/offbeat-topline</URI>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f0</Options>
+                    <Parameter>
+                      <Index>0</Index>
+                      <Name>Mode</Name>
+                      <Symbol>mode</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>1</Index>
+                      <Name>Volume</Name>
+                      <Symbol>volume</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>2</Index>
+                      <Name>Octave</Name>
+                      <Symbol>octave</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>3</Index>
+                      <Name>Voices</Name>
+                      <Symbol>voice_mode</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>4</Index>
+                      <Name>Glide</Name>
+                      <Symbol>glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>5</Index>
+                      <Name>Chord</Name>
+                      <Symbol>chord</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>6</Index>
+                      <Name>Vibrato Depth</Name>
+                      <Symbol>vib_depth</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>7</Index>
+                      <Name>Vibrato Rate</Name>
+                      <Symbol>vib_rate</Symbol>
+                      <Value>5.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>8</Index>
+                      <Name>Vibrato Delay</Name>
+                      <Symbol>vib_delay</Symbol>
+                      <Value>250</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>9</Index>
+                      <Name>Chorus</Name>
+                      <Symbol>chorus</Symbol>
+                      <Value>0.300000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>10</Index>
+                      <Name>Delay Mix</Name>
+                      <Symbol>delay_mix</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>11</Index>
+                      <Name>Delay Time</Name>
+                      <Symbol>delay_time</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>12</Index>
+                      <Name>Delay Feedback</Name>
+                      <Symbol>delay_fb</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>13</Index>
+                      <Name>Reverb Mix</Name>
+                      <Symbol>reverb_mix</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>14</Index>
+                      <Name>Reverb Size</Name>
+                      <Symbol>reverb_size</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>15</Index>
+                      <Name>Tempo from Host</Name>
+                      <Symbol>tempo_host</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>16</Index>
+                      <Name>Tempo BPM</Name>
+                      <Symbol>tempo_bpm</Symbol>
+                      <Value>160</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>17</Index>
+                      <Name>Saw Voices</Name>
+                      <Symbol>saw_voices</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>18</Index>
+                      <Name>Saw Detune</Name>
+                      <Symbol>saw_detune</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>19</Index>
+                      <Name>Saw Cutoff</Name>
+                      <Symbol>saw_cutoff</Symbol>
+                      <Value>7000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>20</Index>
+                      <Name>Saw Resonance</Name>
+                      <Symbol>saw_reso</Symbol>
+                      <Value>0.100000001490116</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>21</Index>
+                      <Name>Saw Filter Env</Name>
+                      <Symbol>saw_envamt</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>22</Index>
+                      <Name>Saw Filter Decay</Name>
+                      <Symbol>saw_fdecay</Symbol>
+                      <Value>400</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>23</Index>
+                      <Name>Saw Attack</Name>
+                      <Symbol>saw_attack</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>24</Index>
+                      <Name>Saw Decay</Name>
+                      <Symbol>saw_decay</Symbol>
+                      <Value>600</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>25</Index>
+                      <Name>Saw Sustain</Name>
+                      <Symbol>saw_sustain</Symbol>
+                      <Value>0.800000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>26</Index>
+                      <Name>Saw Release</Name>
+                      <Symbol>saw_release</Symbol>
+                      <Value>700</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>27</Index>
+                      <Name>Saw Width</Name>
+                      <Symbol>saw_width</Symbol>
+                      <Value>0.649999976158142</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>28</Index>
+                      <Name>Stab Voices</Name>
+                      <Symbol>stab_voices</Symbol>
+                      <Value>5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>29</Index>
+                      <Name>Stab Detune</Name>
+                      <Symbol>stab_detune</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>30</Index>
+                      <Name>Stab Cutoff</Name>
+                      <Symbol>stab_cutoff</Symbol>
+                      <Value>3500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>31</Index>
+                      <Name>Stab Filter Env</Name>
+                      <Symbol>stab_envamt</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>32</Index>
+                      <Name>Stab Filter Decay</Name>
+                      <Symbol>stab_fdecay</Symbol>
+                      <Value>90</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>33</Index>
+                      <Name>Stab Decay</Name>
+                      <Symbol>stab_decay</Symbol>
+                      <Value>140</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>34</Index>
+                      <Name>Stab Release</Name>
+                      <Symbol>stab_release</Symbol>
+                      <Value>60</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>35</Index>
+                      <Name>Stab Shine</Name>
+                      <Symbol>stab_shine</Symbol>
+                      <Value>4</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>36</Index>
+                      <Name>Stab Shine Freq</Name>
+                      <Symbol>stab_shine_hz</Symbol>
+                      <Value>6000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>37</Index>
+                      <Name>Stab Width</Name>
+                      <Symbol>stab_width</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>38</Index>
+                      <Name>Pluck Tone</Name>
+                      <Symbol>pluck_tone</Symbol>
+                      <Value>1500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>39</Index>
+                      <Name>Pluck Filter Env</Name>
+                      <Symbol>pluck_envamt</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>40</Index>
+                      <Name>Pluck Decay</Name>
+                      <Symbol>pluck_decay</Symbol>
+                      <Value>130</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>41</Index>
+                      <Name>Pluck Body</Name>
+                      <Symbol>pluck_body</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>42</Index>
+                      <Name>Pluck Detune</Name>
+                      <Symbol>pluck_detune</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>43</Index>
+                      <Name>Pluck Width</Name>
+                      <Symbol>pluck_width</Symbol>
+                      <Value>0.449999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>44</Index>
+                      <Name>Whistle Breath</Name>
+                      <Symbol>whistle_breath</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>45</Index>
+                      <Name>Whistle Scoop</Name>
+                      <Symbol>whistle_scoop</Symbol>
+                      <Value>0.800000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>46</Index>
+                      <Name>Whistle Scoop Time</Name>
+                      <Symbol>whistle_scoop_ms</Symbol>
+                      <Value>30</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>47</Index>
+                      <Name>Whistle Trill</Name>
+                      <Symbol>whistle_trill</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>48</Index>
+                      <Name>Whistle Trill Rate</Name>
+                      <Symbol>whistle_trill_hz</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>49</Index>
+                      <Name>Whistle Length</Name>
+                      <Symbol>whistle_length</Symbol>
+                      <Value>180</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>50</Index>
+                      <Name>Whistle Width</Name>
+                      <Symbol>whistle_width</Symbol>
+                      <Value>0.100000001490116</Value>
+                    </Parameter>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elcut lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elres lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arprange="1" arpdir="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="200" arpcycle="0" arpskip="0" arpmiss="0" arp="0" arptime_syncmode="0" arpmode="0" arpgate="100"/>
+          <midiport readable="0" outputchannel="1" outputprogram="1" inputchannel="0" fixedoutputvelocity="-1" outputcontroller="0" fixedoutputnote="-1" fixedinputvelocity="-1" writable="0" basevelocity="63" inputcontroller="0"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern name="Akkorde (Topline)" pos="1536" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+          <note pos="0" len="192" vol="75" pan="0" key="84"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="1728" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="73"/>
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="1920" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="75"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+          <note pos="0" len="192" vol="75" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="2112" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="72"/>
+          <note pos="0" len="192" vol="75" pan="0" key="76"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="2304" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+          <note pos="0" len="192" vol="75" pan="0" key="84"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="2496" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="73"/>
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="2688" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="75"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+          <note pos="0" len="192" vol="75" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="2880" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="72"/>
+          <note pos="0" len="192" vol="75" pan="0" key="76"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="3072" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+          <note pos="0" len="192" vol="75" pan="0" key="84"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="3264" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="73"/>
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="3456" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="75"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+          <note pos="0" len="192" vol="75" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="3648" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="72"/>
+          <note pos="0" len="192" vol="75" pan="0" key="76"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="3840" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+          <note pos="0" len="192" vol="75" pan="0" key="84"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="4032" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="73"/>
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="4224" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="75"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+          <note pos="0" len="192" vol="75" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="4416" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="72"/>
+          <note pos="0" len="192" vol="75" pan="0" key="76"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="4608" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+          <note pos="0" len="192" vol="75" pan="0" key="84"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="4800" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="73"/>
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="4992" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="75"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+          <note pos="0" len="192" vol="75" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="5184" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="72"/>
+          <note pos="0" len="192" vol="75" pan="0" key="76"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="5376" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+          <note pos="0" len="192" vol="75" pan="0" key="84"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="5568" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="73"/>
+          <note pos="0" len="192" vol="75" pan="0" key="77"/>
+          <note pos="0" len="192" vol="75" pan="0" key="80"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="5760" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="75"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+          <note pos="0" len="192" vol="75" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Akkorde (Topline)" pos="5952" muted="0" type="1" steps="16">
+          <note pos="0" len="192" vol="75" pan="0" key="72"/>
+          <note pos="0" len="192" vol="75" pan="0" key="76"/>
+          <note pos="0" len="192" vol="75" pan="0" key="79"/>
+        </pattern>
+      </track>
+      <track name="Melodie (Topline)" solo="0" muted="0" type="0">
+        <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" vol="180" fxch="2" pan="0" pitchrange="1">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.5">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/Library/Audio/Plug-Ins/LADSPA:/Users/lukestark/Library/Audio/Plug-Ins/LADSPA</LADSPA_PATH>
+                  <DSSI_PATH>/Library/Audio/Plug-Ins/DSSI:/Users/lukestark/Library/Audio/Plug-Ins/DSSI</DSSI_PATH>
+                  <LV2_PATH>/Library/Audio/Plug-Ins/LV2:/Users/lukestark/Library/Audio/Plug-Ins/LV2</LV2_PATH>
+                  <VST2_PATH>/Library/Audio/Plug-Ins/VST:/Users/lukestark/Library/Audio/Plug-Ins/VST</VST2_PATH>
+                  <VST3_PATH>/Library/Audio/Plug-Ins/VST3:/Users/lukestark/Library/Audio/Plug-Ins/VST3</VST3_PATH>
+                  <SF2_PATH/>
+                  <SFZ_PATH/>
+                  <JSFX_PATH/>
+                </EngineSettings>
+                <!-- Offbeat Topline -->
+                <Plugin>
+                  <Info>
+                    <Type>LV2</Type>
+                    <Name>Offbeat Topline</Name>
+                    <URI>https://github.com/lukestark-glitch/offbeat-topline</URI>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f0</Options>
+                    <Parameter>
+                      <Index>0</Index>
+                      <Name>Mode</Name>
+                      <Symbol>mode</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>1</Index>
+                      <Name>Volume</Name>
+                      <Symbol>volume</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>2</Index>
+                      <Name>Octave</Name>
+                      <Symbol>octave</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>3</Index>
+                      <Name>Voices</Name>
+                      <Symbol>voice_mode</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>4</Index>
+                      <Name>Glide</Name>
+                      <Symbol>glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>5</Index>
+                      <Name>Chord</Name>
+                      <Symbol>chord</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>6</Index>
+                      <Name>Vibrato Depth</Name>
+                      <Symbol>vib_depth</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>7</Index>
+                      <Name>Vibrato Rate</Name>
+                      <Symbol>vib_rate</Symbol>
+                      <Value>5.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>8</Index>
+                      <Name>Vibrato Delay</Name>
+                      <Symbol>vib_delay</Symbol>
+                      <Value>250</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>9</Index>
+                      <Name>Chorus</Name>
+                      <Symbol>chorus</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>10</Index>
+                      <Name>Delay Mix</Name>
+                      <Symbol>delay_mix</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>11</Index>
+                      <Name>Delay Time</Name>
+                      <Symbol>delay_time</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>12</Index>
+                      <Name>Delay Feedback</Name>
+                      <Symbol>delay_fb</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>13</Index>
+                      <Name>Reverb Mix</Name>
+                      <Symbol>reverb_mix</Symbol>
+                      <Value>0.119999997317791</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>14</Index>
+                      <Name>Reverb Size</Name>
+                      <Symbol>reverb_size</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>15</Index>
+                      <Name>Tempo from Host</Name>
+                      <Symbol>tempo_host</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>16</Index>
+                      <Name>Tempo BPM</Name>
+                      <Symbol>tempo_bpm</Symbol>
+                      <Value>160</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>17</Index>
+                      <Name>Saw Voices</Name>
+                      <Symbol>saw_voices</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>18</Index>
+                      <Name>Saw Detune</Name>
+                      <Symbol>saw_detune</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>19</Index>
+                      <Name>Saw Cutoff</Name>
+                      <Symbol>saw_cutoff</Symbol>
+                      <Value>7000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>20</Index>
+                      <Name>Saw Resonance</Name>
+                      <Symbol>saw_reso</Symbol>
+                      <Value>0.100000001490116</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>21</Index>
+                      <Name>Saw Filter Env</Name>
+                      <Symbol>saw_envamt</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>22</Index>
+                      <Name>Saw Filter Decay</Name>
+                      <Symbol>saw_fdecay</Symbol>
+                      <Value>400</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>23</Index>
+                      <Name>Saw Attack</Name>
+                      <Symbol>saw_attack</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>24</Index>
+                      <Name>Saw Decay</Name>
+                      <Symbol>saw_decay</Symbol>
+                      <Value>600</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>25</Index>
+                      <Name>Saw Sustain</Name>
+                      <Symbol>saw_sustain</Symbol>
+                      <Value>0.800000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>26</Index>
+                      <Name>Saw Release</Name>
+                      <Symbol>saw_release</Symbol>
+                      <Value>700</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>27</Index>
+                      <Name>Saw Width</Name>
+                      <Symbol>saw_width</Symbol>
+                      <Value>0.649999976158142</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>28</Index>
+                      <Name>Stab Voices</Name>
+                      <Symbol>stab_voices</Symbol>
+                      <Value>5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>29</Index>
+                      <Name>Stab Detune</Name>
+                      <Symbol>stab_detune</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>30</Index>
+                      <Name>Stab Cutoff</Name>
+                      <Symbol>stab_cutoff</Symbol>
+                      <Value>3500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>31</Index>
+                      <Name>Stab Filter Env</Name>
+                      <Symbol>stab_envamt</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>32</Index>
+                      <Name>Stab Filter Decay</Name>
+                      <Symbol>stab_fdecay</Symbol>
+                      <Value>90</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>33</Index>
+                      <Name>Stab Decay</Name>
+                      <Symbol>stab_decay</Symbol>
+                      <Value>140</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>34</Index>
+                      <Name>Stab Release</Name>
+                      <Symbol>stab_release</Symbol>
+                      <Value>60</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>35</Index>
+                      <Name>Stab Shine</Name>
+                      <Symbol>stab_shine</Symbol>
+                      <Value>4</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>36</Index>
+                      <Name>Stab Shine Freq</Name>
+                      <Symbol>stab_shine_hz</Symbol>
+                      <Value>6000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>37</Index>
+                      <Name>Stab Width</Name>
+                      <Symbol>stab_width</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>38</Index>
+                      <Name>Pluck Tone</Name>
+                      <Symbol>pluck_tone</Symbol>
+                      <Value>1500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>39</Index>
+                      <Name>Pluck Filter Env</Name>
+                      <Symbol>pluck_envamt</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>40</Index>
+                      <Name>Pluck Decay</Name>
+                      <Symbol>pluck_decay</Symbol>
+                      <Value>130</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>41</Index>
+                      <Name>Pluck Body</Name>
+                      <Symbol>pluck_body</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>42</Index>
+                      <Name>Pluck Detune</Name>
+                      <Symbol>pluck_detune</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>43</Index>
+                      <Name>Pluck Width</Name>
+                      <Symbol>pluck_width</Symbol>
+                      <Value>0.449999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>44</Index>
+                      <Name>Whistle Breath</Name>
+                      <Symbol>whistle_breath</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>45</Index>
+                      <Name>Whistle Scoop</Name>
+                      <Symbol>whistle_scoop</Symbol>
+                      <Value>0.800000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>46</Index>
+                      <Name>Whistle Scoop Time</Name>
+                      <Symbol>whistle_scoop_ms</Symbol>
+                      <Value>30</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>47</Index>
+                      <Name>Whistle Trill</Name>
+                      <Symbol>whistle_trill</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>48</Index>
+                      <Name>Whistle Trill Rate</Name>
+                      <Symbol>whistle_trill_hz</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>49</Index>
+                      <Name>Whistle Length</Name>
+                      <Symbol>whistle_length</Symbol>
+                      <Value>180</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>50</Index>
+                      <Name>Whistle Width</Name>
+                      <Symbol>whistle_width</Symbol>
+                      <Value>0.100000001490116</Value>
+                    </Parameter>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elcut lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elres lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arprange="1" arpdir="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="200" arpcycle="0" arpskip="0" arpmiss="0" arp="0" arptime_syncmode="0" arpmode="0" arpgate="100"/>
+          <midiport readable="0" outputchannel="1" outputprogram="1" inputchannel="0" fixedoutputvelocity="-1" outputcontroller="0" fixedoutputnote="-1" fixedinputvelocity="-1" writable="0" basevelocity="63" inputcontroller="0"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern name="Melodie (Topline)" pos="3072" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="84"/>
+          <note pos="24" len="10" vol="90" pan="0" key="80"/>
+          <note pos="48" len="10" vol="90" pan="0" key="77"/>
+          <note pos="72" len="10" vol="90" pan="0" key="80"/>
+          <note pos="96" len="10" vol="90" pan="0" key="84"/>
+          <note pos="120" len="10" vol="90" pan="0" key="80"/>
+          <note pos="144" len="10" vol="90" pan="0" key="79"/>
+          <note pos="168" len="10" vol="90" pan="0" key="77"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="3264" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="80"/>
+          <note pos="24" len="10" vol="90" pan="0" key="77"/>
+          <note pos="48" len="10" vol="90" pan="0" key="73"/>
+          <note pos="72" len="10" vol="90" pan="0" key="77"/>
+          <note pos="96" len="10" vol="90" pan="0" key="80"/>
+          <note pos="120" len="10" vol="90" pan="0" key="77"/>
+          <note pos="144" len="10" vol="90" pan="0" key="80"/>
+          <note pos="168" len="10" vol="90" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="3456" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="82"/>
+          <note pos="24" len="10" vol="90" pan="0" key="79"/>
+          <note pos="48" len="10" vol="90" pan="0" key="75"/>
+          <note pos="72" len="10" vol="90" pan="0" key="79"/>
+          <note pos="96" len="10" vol="90" pan="0" key="82"/>
+          <note pos="120" len="10" vol="90" pan="0" key="84"/>
+          <note pos="144" len="10" vol="90" pan="0" key="82"/>
+          <note pos="168" len="10" vol="90" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="3648" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="79"/>
+          <note pos="24" len="10" vol="90" pan="0" key="76"/>
+          <note pos="48" len="10" vol="90" pan="0" key="72"/>
+          <note pos="72" len="10" vol="90" pan="0" key="76"/>
+          <note pos="96" len="10" vol="90" pan="0" key="79"/>
+          <note pos="120" len="10" vol="90" pan="0" key="76"/>
+          <note pos="144" len="10" vol="90" pan="0" key="74"/>
+          <note pos="168" len="10" vol="90" pan="0" key="76"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="3840" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="84"/>
+          <note pos="24" len="10" vol="90" pan="0" key="80"/>
+          <note pos="48" len="10" vol="90" pan="0" key="77"/>
+          <note pos="72" len="10" vol="90" pan="0" key="80"/>
+          <note pos="96" len="10" vol="90" pan="0" key="84"/>
+          <note pos="120" len="10" vol="90" pan="0" key="80"/>
+          <note pos="144" len="10" vol="90" pan="0" key="79"/>
+          <note pos="168" len="10" vol="90" pan="0" key="77"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="4032" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="80"/>
+          <note pos="24" len="10" vol="90" pan="0" key="77"/>
+          <note pos="48" len="10" vol="90" pan="0" key="73"/>
+          <note pos="72" len="10" vol="90" pan="0" key="77"/>
+          <note pos="96" len="10" vol="90" pan="0" key="80"/>
+          <note pos="120" len="10" vol="90" pan="0" key="77"/>
+          <note pos="144" len="10" vol="90" pan="0" key="80"/>
+          <note pos="168" len="10" vol="90" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="4224" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="82"/>
+          <note pos="24" len="10" vol="90" pan="0" key="79"/>
+          <note pos="48" len="10" vol="90" pan="0" key="75"/>
+          <note pos="72" len="10" vol="90" pan="0" key="79"/>
+          <note pos="96" len="10" vol="90" pan="0" key="82"/>
+          <note pos="120" len="10" vol="90" pan="0" key="84"/>
+          <note pos="144" len="10" vol="90" pan="0" key="82"/>
+          <note pos="168" len="10" vol="90" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="4416" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="79"/>
+          <note pos="24" len="10" vol="90" pan="0" key="76"/>
+          <note pos="48" len="10" vol="90" pan="0" key="72"/>
+          <note pos="72" len="10" vol="90" pan="0" key="76"/>
+          <note pos="96" len="10" vol="90" pan="0" key="79"/>
+          <note pos="120" len="10" vol="90" pan="0" key="76"/>
+          <note pos="144" len="10" vol="90" pan="0" key="74"/>
+          <note pos="168" len="10" vol="90" pan="0" key="76"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="4608" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="84"/>
+          <note pos="24" len="10" vol="90" pan="0" key="80"/>
+          <note pos="48" len="10" vol="90" pan="0" key="77"/>
+          <note pos="72" len="10" vol="90" pan="0" key="80"/>
+          <note pos="96" len="10" vol="90" pan="0" key="84"/>
+          <note pos="120" len="10" vol="90" pan="0" key="80"/>
+          <note pos="144" len="10" vol="90" pan="0" key="79"/>
+          <note pos="168" len="10" vol="90" pan="0" key="77"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="4800" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="80"/>
+          <note pos="24" len="10" vol="90" pan="0" key="77"/>
+          <note pos="48" len="10" vol="90" pan="0" key="73"/>
+          <note pos="72" len="10" vol="90" pan="0" key="77"/>
+          <note pos="96" len="10" vol="90" pan="0" key="80"/>
+          <note pos="120" len="10" vol="90" pan="0" key="77"/>
+          <note pos="144" len="10" vol="90" pan="0" key="80"/>
+          <note pos="168" len="10" vol="90" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="4992" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="82"/>
+          <note pos="24" len="10" vol="90" pan="0" key="79"/>
+          <note pos="48" len="10" vol="90" pan="0" key="75"/>
+          <note pos="72" len="10" vol="90" pan="0" key="79"/>
+          <note pos="96" len="10" vol="90" pan="0" key="82"/>
+          <note pos="120" len="10" vol="90" pan="0" key="84"/>
+          <note pos="144" len="10" vol="90" pan="0" key="82"/>
+          <note pos="168" len="10" vol="90" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="5184" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="79"/>
+          <note pos="24" len="10" vol="90" pan="0" key="76"/>
+          <note pos="48" len="10" vol="90" pan="0" key="72"/>
+          <note pos="72" len="10" vol="90" pan="0" key="76"/>
+          <note pos="96" len="10" vol="90" pan="0" key="79"/>
+          <note pos="120" len="10" vol="90" pan="0" key="76"/>
+          <note pos="144" len="10" vol="90" pan="0" key="74"/>
+          <note pos="168" len="10" vol="90" pan="0" key="76"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="5376" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="84"/>
+          <note pos="24" len="10" vol="90" pan="0" key="80"/>
+          <note pos="48" len="10" vol="90" pan="0" key="77"/>
+          <note pos="72" len="10" vol="90" pan="0" key="80"/>
+          <note pos="96" len="10" vol="90" pan="0" key="84"/>
+          <note pos="120" len="10" vol="90" pan="0" key="80"/>
+          <note pos="144" len="10" vol="90" pan="0" key="79"/>
+          <note pos="168" len="10" vol="90" pan="0" key="77"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="5568" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="80"/>
+          <note pos="24" len="10" vol="90" pan="0" key="77"/>
+          <note pos="48" len="10" vol="90" pan="0" key="73"/>
+          <note pos="72" len="10" vol="90" pan="0" key="77"/>
+          <note pos="96" len="10" vol="90" pan="0" key="80"/>
+          <note pos="120" len="10" vol="90" pan="0" key="77"/>
+          <note pos="144" len="10" vol="90" pan="0" key="80"/>
+          <note pos="168" len="10" vol="90" pan="0" key="82"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="5760" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="82"/>
+          <note pos="24" len="10" vol="90" pan="0" key="79"/>
+          <note pos="48" len="10" vol="90" pan="0" key="75"/>
+          <note pos="72" len="10" vol="90" pan="0" key="79"/>
+          <note pos="96" len="10" vol="90" pan="0" key="82"/>
+          <note pos="120" len="10" vol="90" pan="0" key="84"/>
+          <note pos="144" len="10" vol="90" pan="0" key="82"/>
+          <note pos="168" len="10" vol="90" pan="0" key="79"/>
+        </pattern>
+        <pattern name="Melodie (Topline)" pos="5952" muted="0" type="1" steps="16">
+          <note pos="0" len="10" vol="90" pan="0" key="79"/>
+          <note pos="24" len="10" vol="90" pan="0" key="76"/>
+          <note pos="48" len="10" vol="90" pan="0" key="72"/>
+          <note pos="72" len="10" vol="90" pan="0" key="76"/>
+          <note pos="96" len="10" vol="90" pan="0" key="79"/>
+          <note pos="120" len="10" vol="90" pan="0" key="76"/>
+          <note pos="144" len="10" vol="90" pan="0" key="74"/>
+          <note pos="168" len="10" vol="90" pan="0" key="76"/>
+        </pattern>
+      </track>
+      <track name="Pfeife (Topline)" solo="0" muted="0" type="0">
+        <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" vol="110" fxch="5" pan="0" pitchrange="1">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.5">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/Library/Audio/Plug-Ins/LADSPA:/Users/lukestark/Library/Audio/Plug-Ins/LADSPA</LADSPA_PATH>
+                  <DSSI_PATH>/Library/Audio/Plug-Ins/DSSI:/Users/lukestark/Library/Audio/Plug-Ins/DSSI</DSSI_PATH>
+                  <LV2_PATH>/Library/Audio/Plug-Ins/LV2:/Users/lukestark/Library/Audio/Plug-Ins/LV2</LV2_PATH>
+                  <VST2_PATH>/Library/Audio/Plug-Ins/VST:/Users/lukestark/Library/Audio/Plug-Ins/VST</VST2_PATH>
+                  <VST3_PATH>/Library/Audio/Plug-Ins/VST3:/Users/lukestark/Library/Audio/Plug-Ins/VST3</VST3_PATH>
+                  <SF2_PATH/>
+                  <SFZ_PATH/>
+                  <JSFX_PATH/>
+                </EngineSettings>
+                <!-- Offbeat Topline -->
+                <Plugin>
+                  <Info>
+                    <Type>LV2</Type>
+                    <Name>Offbeat Topline</Name>
+                    <URI>https://github.com/lukestark-glitch/offbeat-topline</URI>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f0</Options>
+                    <Parameter>
+                      <Index>0</Index>
+                      <Name>Mode</Name>
+                      <Symbol>mode</Symbol>
+                      <Value>3</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>1</Index>
+                      <Name>Volume</Name>
+                      <Symbol>volume</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>2</Index>
+                      <Name>Octave</Name>
+                      <Symbol>octave</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>3</Index>
+                      <Name>Voices</Name>
+                      <Symbol>voice_mode</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>4</Index>
+                      <Name>Glide</Name>
+                      <Symbol>glide</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>5</Index>
+                      <Name>Chord</Name>
+                      <Symbol>chord</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>6</Index>
+                      <Name>Vibrato Depth</Name>
+                      <Symbol>vib_depth</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>7</Index>
+                      <Name>Vibrato Rate</Name>
+                      <Symbol>vib_rate</Symbol>
+                      <Value>5.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>8</Index>
+                      <Name>Vibrato Delay</Name>
+                      <Symbol>vib_delay</Symbol>
+                      <Value>250</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>9</Index>
+                      <Name>Chorus</Name>
+                      <Symbol>chorus</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>10</Index>
+                      <Name>Delay Mix</Name>
+                      <Symbol>delay_mix</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>11</Index>
+                      <Name>Delay Time</Name>
+                      <Symbol>delay_time</Symbol>
+                      <Value>2</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>12</Index>
+                      <Name>Delay Feedback</Name>
+                      <Symbol>delay_fb</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>13</Index>
+                      <Name>Reverb Mix</Name>
+                      <Symbol>reverb_mix</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>14</Index>
+                      <Name>Reverb Size</Name>
+                      <Symbol>reverb_size</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>15</Index>
+                      <Name>Tempo from Host</Name>
+                      <Symbol>tempo_host</Symbol>
+                      <Value>1</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>16</Index>
+                      <Name>Tempo BPM</Name>
+                      <Symbol>tempo_bpm</Symbol>
+                      <Value>160</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>17</Index>
+                      <Name>Saw Voices</Name>
+                      <Symbol>saw_voices</Symbol>
+                      <Value>7</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>18</Index>
+                      <Name>Saw Detune</Name>
+                      <Symbol>saw_detune</Symbol>
+                      <Value>0.349999994039536</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>19</Index>
+                      <Name>Saw Cutoff</Name>
+                      <Symbol>saw_cutoff</Symbol>
+                      <Value>7000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>20</Index>
+                      <Name>Saw Resonance</Name>
+                      <Symbol>saw_reso</Symbol>
+                      <Value>0.100000001490116</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>21</Index>
+                      <Name>Saw Filter Env</Name>
+                      <Symbol>saw_envamt</Symbol>
+                      <Value>0.200000002980232</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>22</Index>
+                      <Name>Saw Filter Decay</Name>
+                      <Symbol>saw_fdecay</Symbol>
+                      <Value>400</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>23</Index>
+                      <Name>Saw Attack</Name>
+                      <Symbol>saw_attack</Symbol>
+                      <Value>8</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>24</Index>
+                      <Name>Saw Decay</Name>
+                      <Symbol>saw_decay</Symbol>
+                      <Value>600</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>25</Index>
+                      <Name>Saw Sustain</Name>
+                      <Symbol>saw_sustain</Symbol>
+                      <Value>0.800000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>26</Index>
+                      <Name>Saw Release</Name>
+                      <Symbol>saw_release</Symbol>
+                      <Value>700</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>27</Index>
+                      <Name>Saw Width</Name>
+                      <Symbol>saw_width</Symbol>
+                      <Value>0.649999976158142</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>28</Index>
+                      <Name>Stab Voices</Name>
+                      <Symbol>stab_voices</Symbol>
+                      <Value>5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>29</Index>
+                      <Name>Stab Detune</Name>
+                      <Symbol>stab_detune</Symbol>
+                      <Value>0.25</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>30</Index>
+                      <Name>Stab Cutoff</Name>
+                      <Symbol>stab_cutoff</Symbol>
+                      <Value>3500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>31</Index>
+                      <Name>Stab Filter Env</Name>
+                      <Symbol>stab_envamt</Symbol>
+                      <Value>0.5</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>32</Index>
+                      <Name>Stab Filter Decay</Name>
+                      <Symbol>stab_fdecay</Symbol>
+                      <Value>90</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>33</Index>
+                      <Name>Stab Decay</Name>
+                      <Symbol>stab_decay</Symbol>
+                      <Value>140</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>34</Index>
+                      <Name>Stab Release</Name>
+                      <Symbol>stab_release</Symbol>
+                      <Value>60</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>35</Index>
+                      <Name>Stab Shine</Name>
+                      <Symbol>stab_shine</Symbol>
+                      <Value>4</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>36</Index>
+                      <Name>Stab Shine Freq</Name>
+                      <Symbol>stab_shine_hz</Symbol>
+                      <Value>6000</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>37</Index>
+                      <Name>Stab Width</Name>
+                      <Symbol>stab_width</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>38</Index>
+                      <Name>Pluck Tone</Name>
+                      <Symbol>pluck_tone</Symbol>
+                      <Value>1500</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>39</Index>
+                      <Name>Pluck Filter Env</Name>
+                      <Symbol>pluck_envamt</Symbol>
+                      <Value>0.600000023841858</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>40</Index>
+                      <Name>Pluck Decay</Name>
+                      <Symbol>pluck_decay</Symbol>
+                      <Value>130</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>41</Index>
+                      <Name>Pluck Body</Name>
+                      <Symbol>pluck_body</Symbol>
+                      <Value>6</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>42</Index>
+                      <Name>Pluck Detune</Name>
+                      <Symbol>pluck_detune</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>43</Index>
+                      <Name>Pluck Width</Name>
+                      <Symbol>pluck_width</Symbol>
+                      <Value>0.449999988079071</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>44</Index>
+                      <Name>Whistle Breath</Name>
+                      <Symbol>whistle_breath</Symbol>
+                      <Value>0.150000005960464</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>45</Index>
+                      <Name>Whistle Scoop</Name>
+                      <Symbol>whistle_scoop</Symbol>
+                      <Value>0.800000011920929</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>46</Index>
+                      <Name>Whistle Scoop Time</Name>
+                      <Symbol>whistle_scoop_ms</Symbol>
+                      <Value>30</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>47</Index>
+                      <Name>Whistle Trill</Name>
+                      <Symbol>whistle_trill</Symbol>
+                      <Value>0</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>48</Index>
+                      <Name>Whistle Trill Rate</Name>
+                      <Symbol>whistle_trill_hz</Symbol>
+                      <Value>12</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>49</Index>
+                      <Name>Whistle Length</Name>
+                      <Symbol>whistle_length</Symbol>
+                      <Value>180</Value>
+                    </Parameter>
+                    <Parameter>
+                      <Index>50</Index>
+                      <Name>Whistle Width</Name>
+                      <Symbol>whistle_width</Symbol>
+                      <Value>0.100000001490116</Value>
+                    </Parameter>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" fwet="0" ftype="0" fres="0.5">
+            <elvol lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elcut lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+            <elres lspd_syncmode="0" amt="0" userwavefile="" x100="0" lspd_numerator="4" att="0" lpdel="0" latt="0" lspd="0.1" ctlenvamt="0" dec="0.5" lamt="0" sustain="0.5" lshp="0" hold="0.5" pdel="0" lspd_denominator="4" rel="0.1"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arprange="1" arpdir="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="200" arpcycle="0" arpskip="0" arpmiss="0" arp="0" arptime_syncmode="0" arpmode="0" arpgate="100"/>
+          <midiport readable="0" outputchannel="1" outputprogram="1" inputchannel="0" fixedoutputvelocity="-1" outputcontroller="0" fixedoutputnote="-1" fixedinputvelocity="-1" writable="0" basevelocity="63" inputcontroller="0"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern name="Pfeife (Topline)" pos="4608" muted="0" type="1" steps="16">
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="4800" muted="0" type="1" steps="16">
+          <note pos="72" len="24" vol="70" pan="0" key="99"/>
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="4992" muted="0" type="1" steps="16">
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="5184" muted="0" type="1" steps="16">
+          <note pos="72" len="24" vol="70" pan="0" key="99"/>
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="5376" muted="0" type="1" steps="16">
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="5568" muted="0" type="1" steps="16">
+          <note pos="72" len="24" vol="70" pan="0" key="99"/>
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="5760" muted="0" type="1" steps="16">
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+        <pattern name="Pfeife (Topline)" pos="5952" muted="0" type="1" steps="16">
+          <note pos="72" len="24" vol="70" pan="0" key="99"/>
+          <note pos="168" len="24" vol="90" pan="0" key="99"/>
+        </pattern>
+      </track>
+    </trackcontainer>
+    <track name="Automation track" solo="0" muted="0" type="6">
+      <automationtrack/>
+      <automationpattern name="Numerator" pos="0" len="192" tens="1" prog="0" mute="0"/>
+      <automationpattern name="Denominator" pos="0" len="192" tens="1" prog="0" mute="0"/>
+      <automationpattern name="Tempo" pos="0" len="192" tens="1" prog="0" mute="0"/>
+      <automationpattern name="Master volume" pos="0" len="192" tens="1" prog="0" mute="0"/>
+      <automationpattern name="Master pitch" pos="0" len="192" tens="1" prog="0" mute="0"/>
+      <automationpattern name="Numerator" pos="0" len="0" tens="1" prog="0" mute="0">
+        <object id="6441163"/>
+      </automationpattern>
+      <automationpattern name="Denominator" pos="0" len="0" tens="1" prog="0" mute="0">
+        <object id="1643108"/>
+      </automationpattern>
+      <automationpattern name="Tempo" pos="0" len="0" tens="1" prog="0" mute="0">
+        <object id="4211906"/>
+      </automationpattern>
+      <automationpattern name="Master volume" pos="0" len="0" tens="1" prog="0" mute="0">
+        <object id="432222"/>
+      </automationpattern>
+      <automationpattern name="Master pitch" pos="0" len="0" tens="1" prog="0" mute="0">
+        <object id="8224271"/>
+      </automationpattern>
+    </track>
+    <fxmixer visible="1" minimized="0" width="709" maximized="0" height="333" y="582" x="197">
+      <fxchannel name="Master (Turbo)" num="0" volume="1" muted="0" soloed="0">
+        <fxchain enabled="1" numofeffects="1">
+          <effect name="ladspaeffect" autoquit_syncmode="0" autoquit_denominator="4" autoquit="1" on="1" wet="1" autoquit_numerator="4" gate="0">
+            <ladspacontrols ports="9">
+              <port05 data="5"/>
+              <port06 data="0.30000001"/>
+              <port07 data="10"/>
+              <port08 data="150"/>
+              <port09 data="0.40000001"/>
+              <port010 data="-0.30000001"/>
+              <port011 data="60"/>
+              <port012 data="-7.5"/>
+              <port017 data="1"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="offbeat-turbo-ladspa"/>
+              <attribute name="plugin" value="OffbeatTurbo"/>
+            </key>
+          </effect>
+        </fxchain>
+      </fxchannel>
+      <fxchannel name="Kick (Peak Controller)" num="1" volume="0.83700001" muted="0" soloed="0">
+        <fxchain enabled="1" numofeffects="1">
+          <effect name="peakcontrollereffect" autoquit_syncmode="0" autoquit_denominator="4" autoquit="1" on="1" wet="1" autoquit_numerator="4" gate="0">
+            <peakcontrollereffectcontrols amount="1" attack="0" effectId="4711" decay="0" base="0" mute="0" amountmult="2" treshold="0" abs="1"/>
+            <key/>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+      <fxchannel name="Synths (Hydraulics)" num="2" volume="1.3720001" muted="0" soloed="0">
+        <fxchain enabled="1" numofeffects="1">
+          <effect name="ladspaeffect" autoquit_syncmode="0" autoquit_denominator="4" autoquit="1" on="1" wet="1" autoquit_numerator="4" gate="0">
+            <ladspacontrols ports="9">
+              <port04 data="0"/>
+              <port05 data="0">
+                <connection>
+                  <data id="0"/>
+                </connection>
+              </port05>
+              <port06 data="12"/>
+              <port07 data="0.5"/>
+              <port08 data="250"/>
+              <port09 data="2"/>
+              <port010 data="3"/>
+              <port011 data="0"/>
+              <port012 data="160"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="offbeat-hydraulics-ladspa"/>
+              <attribute name="plugin" value="OffbeatHydraulics"/>
+            </key>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+      <fxchannel name="Bass" num="3" volume="0.74400002" muted="0" soloed="0">
+        <fxchain enabled="0" numofeffects="0"/>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+      <fxchannel name="Hats" num="4" volume="1.1860001" muted="0" soloed="0">
+        <fxchain enabled="0" numofeffects="0"/>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+      <fxchannel name="Pfeife" num="5" volume="1" muted="0" soloed="0">
+        <fxchain enabled="0" numofeffects="0"/>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView visible="0" minimized="0" width="350" maximized="0" height="200" y="352" x="680"/>
+    <pianoroll visible="1" minimized="0" width="1043" maximized="0" height="644" y="233" x="1"/>
+    <automationeditor visible="0" minimized="0" width="860" maximized="0" height="400" y="510" x="314"/>
+    <projectnotes visible="0" minimized="0" width="716" maximized="0" height="400" y="52" x="700"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Offbeat-Familie Demo (160 BPM, F-Moll, 32 Takte): Engine (Kick, Bass, Hats), Topline (Akkorde, Melodie, Pfeife), Hydraulics pumpt die Synths per Peak Controller von der Kick, Turbo (Auto) auf dem Master.</p></body></html>]]></projectnotes>
+    <timeline lpstate="0" lp0pos="0" lp1pos="6144"/>
+    <controllers>
+      <Peakcontroller name="Kick-Pumpe" effectId="4711" type="3"/>
+    </controllers>
+  </song>
+</lmms-project>

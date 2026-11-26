@@ -1,0 +1,12 @@
+[submodule "engine"]
+	path = engine
+	url = https://github.com/lukestark-glitch/offbeat-engine
+[submodule "topline"]
+	path = topline
+	url = https://github.com/lukestark-glitch/offbeat-topline
+[submodule "turbo"]
+	path = turbo
+	url = https://github.com/lukestark-glitch/offbeat-turbo
+[submodule "hydraulics"]
+	path = hydraulics
+	url = https://github.com/lukestark-glitch/offbeat-hydraulics
